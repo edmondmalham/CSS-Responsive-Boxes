@@ -1,3 +1,45 @@
 body {
   background: blanchedalmond;
+  height: 100vh;
+  margin: 0%;
+}
+.a {
+  min-height: 20%;
+  width: 100%;
+  background-color: aqua;
+}
+
+
+.b {
+  min-height: 60%;
+  width: 100%;
+  background-color: blue;
+}
+
+.c {
+  min-height: 20%;
+  width: 100%;
+  background-color: rgb(22, 13, 3);
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  font-size: 0;
+}
+
+@media only screen and (min-width: 700px) {
+  .a {
+    min-height: 30%;
+  }
+  .b {
+    min-height: 70%;
+    width: 80%;
+    display: inline-block;
+  }
+  .c {
+    min-height: 70%;
+    width: 19%; 
+    display: inline-block;
+  }
 }
